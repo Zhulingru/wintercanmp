@@ -13,27 +13,7 @@ controller.player2.onButtonEvent(ControllerButton.Down, ControllerButtonEvent.Re
     }
 })
 sprites.onOverlap(SpriteKind.Player, SpriteKind.NPC, function (sprite, otherSprite) {
-    if (otherSprite == 薛之交) {
-        story.spriteSayText(otherSprite, "我想吃火鍋，也想吃冰淇淋", 15, 1, story.TextSpeed.Slow)
-    } else if (otherSprite == 火鍋店家) {
-        story.spriteSayText(otherSprite, "我這裡有熱騰騰的火鍋", 15, 1, story.TextSpeed.Slow)
-    } else if (otherSprite == 冰淇淋店家) {
-        story.spriteSayText(otherSprite, "我有好吃的冰淇淋", 15, 1, story.TextSpeed.Slow)
-    } else if (otherSprite == 小王) {
-        story.spriteSayText(otherSprite, "想要渡海，就必須要有船", 15, 1, story.TextSpeed.Slow)
-    } else if (otherSprite == 小白) {
-        story.spriteSayText(otherSprite, "東南方的海域很可怕", 15, 1, story.TextSpeed.Slow)
-    } else if (otherSprite == 小明) {
-        story.spriteSayText(otherSprite, "你們看起來不像村裡的人", 15, 1, story.TextSpeed.Slow)
-    } else if (otherSprite == 小黃) {
-        story.spriteSayText(otherSprite, "最近的洪患真可怕", 15, 1, story.TextSpeed.Slow)
-    } else if (otherSprite == 小黑) {
-        story.spriteSayText(otherSprite, "好多天沒吃東西了", 15, 1, story.TextSpeed.Slow)
-    } else if (otherSprite == 水) {
-    	
-    } else {
-    	
-    }
+	
 })
 controller.player3.onButtonEvent(ControllerButton.Right, ControllerButtonEvent.Released, function () {
     if (!(tiles.tileAtLocationIsWall(mp.getPlayerSprite(mp.playerSelector(mp.PlayerNumber.Three)).tilemapLocation().getNeighboringLocation(CollisionDirection.Right)))) {
@@ -317,20 +297,20 @@ let 角色座標陣列: number[] = []
 let Ｙ軸 = 0
 let Ｘ軸 = 0
 let 薛之交屬性: number[] = []
+let 小黃: Sprite = null
+let 小黑: Sprite = null
+let 小白: Sprite = null
+let 小王: Sprite = null
+let 小明: Sprite = null
+let 冰淇淋店家: Sprite = null
+let 火鍋店家: Sprite = null
+let 薛之交: Sprite = null
 let 玩家一Ｙ = 0
 let 玩家一Ｘ = 0
 let 玩家四Ｘ = 0
 let 玩家四Ｙ = 0
 let 玩家三Ｙ = 0
 let 玩家三Ｘ = 0
-let 小黑: Sprite = null
-let 小黃: Sprite = null
-let 小明: Sprite = null
-let 小白: Sprite = null
-let 小王: Sprite = null
-let 冰淇淋店家: Sprite = null
-let 火鍋店家: Sprite = null
-let 薛之交: Sprite = null
 let 玩家二Ｘ = 0
 let 玩家二Ｙ = 0
 let 水: Sprite = null
