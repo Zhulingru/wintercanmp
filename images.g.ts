@@ -925,6 +925,136 @@ f b b b b b b b b b b f c c . .
 . . . . c b 5 5 5 5 b c . . . . 
 . . . . . f f f f f f . . . . . 
 `;
+            case "image24":
+            case "角色二頭像":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . f f f . f f f f . f f f . . 
+. f f f f f c c c c f f f f f . 
+. f f f f b c c c c b f f f f . 
+. f f f c 3 c c c c 3 c f f f . 
+. . f 3 3 c c c c c c 3 3 f . . 
+. . f c c c c 4 4 c c c c f . . 
+. . f f c c 4 4 4 4 c c f f . . 
+. . f f f b f 4 4 f b f f f . . 
+. . f f 4 1 f d d f 1 4 f f . . 
+. . . f f d d d d d d f f . . . 
+. . . . f f f f f f f f . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image25":
+            case "角色三頭像":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . f f f f f f f f . . . . 
+. . . f f f f f f c f f f . . . 
+. . f f f f f f c c f f f c . . 
+. . f f f c f f f f f f f c . . 
+. . c c c f f f e e f f c c . . 
+. . f f f f f e e f f c c f . . 
+. . f f f b f e e f b f f f . . 
+. . . f 4 1 f 4 4 f 1 4 f . . . 
+. . . f e 4 4 4 4 4 4 e f . . . 
+. . . f f f f f f f f f f . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image26":
+            case "角色四頭像":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . f f f f . . . . . . 
+. . . . f f e e e e f f . . . . 
+. . . f f e e e e e e f f . . . 
+. . f f f f 4 e e e f f f f . . 
+. . f f f 4 4 4 e e f f f f . . 
+. . f f f 4 4 4 4 e e f f f . . 
+. . f 4 e 4 4 4 4 4 4 e 4 f . . 
+. . f 4 4 f f 4 4 f f 4 4 f . . 
+. . f e 4 d d d d d d 4 e f . . 
+. . . f e d d b b d d e f . . . 
+. . . f f f f f f f f f f . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image27":
+            case "火鍋":return img`
+. . . . e e e e e e e e . . . . 
+. . . e e . . . . . . e e . . . 
+. . e . . . . . . . . . . e . . 
+. . e . . . . . . . . . . e . . 
+. . e . . . . . . . . . . e . . 
+. f f f f f f f f f f f f f f . 
+f f 2 2 2 2 2 2 2 2 2 2 2 2 f f 
+f 2 2 4 4 4 2 2 4 4 2 2 4 4 2 f 
+f 2 2 2 2 2 2 2 2 2 2 2 2 2 2 f 
+f f f f f f f f f f f f f f f f 
+. f f f f f f f f f f f f f f . 
+. f c c c c c c c c c c c c f . 
+. f c c c c c c c c c c c c f . 
+. f f c c c c c c c c c c f f . 
+. . f f f f f f f f f f f f . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "image28":
+            case "冰淇淋":return img`
+............3333bb..bb33333.....
+........3bb31111d3b311d111d33...
+.......3bdd11111dbd11d11111113..
+.......bdddd1111bd11d111dd11113.
+......3d111dd111b11d111dd33d11d3
+......3d11111dd1d11d111d11d33113
+....bb3d111111dd13dd111d1dd3b31b
+...b3d3dd111111dd13dd11d1dddbbdb
+...3ddd31d111111dd133dddddddb.b.
+..311111d1ddd1111dd11dddddd33...
+..3111111d111dd111dd1111dd3313..
+..bddd1111ddd11dd111d111111113..
+..311ddd111dddd11dd11ddd1111ddb.
+..31111dd111dddd11dd111dddddddb.
+...bd1111d1113ddd11dd1111111d3b.
+...4dd1111d1113ddd11ddd111d333b.
+..4dbdddd11d11133ddddddddddddb..
+.4ddbddddd11d111d33ddddddddd3b..
+.4dddb11ddd11dd111d333dddd3bb...
+.4dd55b111d11dd11111d3333bbb....
+.445555b111d11dddd111111ddb.....
+.4455555bd1d311ddddddddddd3.....
+.45455555bb1d3111ddddddd113.....
+.4554555555b333d1111111113......
+455554555555bbb33d11111d33......
+4d555545555555dbbb3d11d33.......
+4dd5555455555ddddd43333.........
+45dd555544ddddddd4..............
+.45dd5555d44dddd4...............
+..45dd55dddd4444................
+...45dd55444....................
+....44444.......................
+`;
+            case "image29":
+            case "重置":return img`
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+`;
         }
         return null;
     })
